@@ -50,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc BUGS ChangeLog README README.gnome TODO NEWS THANKS doc/update.sh
 %attr(755,root,root) %{_bindir}/sitecopy
 %{_mandir}/man1/*
-%{_mandir}/*/man1/*
+%lang(fr) %{_mandir}/fr/man1/*
 %{_datadir}/sitecopy
