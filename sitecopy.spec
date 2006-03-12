@@ -11,13 +11,12 @@ BuildRequires:	neon-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-sitecopy allows you to easily maintain remote Web sites.  The program
+sitecopy allows you to easily maintain remote Web sites. The program
 will upload files to the server which have changed locally, and delete
 files from the server which have been removed locally, to keep the
-remote site synchronized with the local site, with a single
-command. sitecopy will also optionally try to spot files you move
-locally, and move them remotely.  FTP and WebDAV servers are
-supported.
+remote site synchronized with the local site, with a single command.
+sitecopy will also optionally try to spot files you move locally, and
+move them remotely. FTP and WebDAV servers are supported.
 
 %prep
 %setup -q
@@ -39,7 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%{_bindir}/sitecopy
+%attr(755,root,root) %{_bindir}/sitecopy
 %{_mandir}/man1/*
 %{_mandir}/*/man1/*
 %{_datadir}/sitecopy
