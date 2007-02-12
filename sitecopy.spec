@@ -1,5 +1,5 @@
 Summary:	Tool for easily maintaining remote web sites
-Summary(pl.UTF-8):   Narzędzie do łatwego utrzymywania zdalnych serwisów WWW
+Summary(pl.UTF-8):	Narzędzie do łatwego utrzymywania zdalnych serwisów WWW
 Name:		sitecopy
 Version:	0.16.3
 Release:	0.1
