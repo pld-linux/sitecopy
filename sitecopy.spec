@@ -1,5 +1,5 @@
 Summary:	Tool for easily maintaining remote web sites
-Summary(pl):	Narzêdzie do ³atwego utrzymywania zdalnych serwisów WWW
+Summary(pl.UTF-8):   NarzÄ™dzie do Å‚atwego utrzymywania zdalnych serwisÃ³w WWW
 Name:		sitecopy
 Version:	0.16.3
 Release:	0.1
@@ -19,12 +19,12 @@ remote site synchronized with the local site, with a single command.
 sitecopy will also optionally try to spot files you move locally, and
 move them remotely. FTP and WebDAV servers are supported.
 
-%description -l pl
-sitecopy pozwala ³atwo utrzymywaæ zdalne serwisy WWW. Program jednym
-poleceniem w celu synchronizacji serwisu przesy³a na serwer pliki,
-które zosta³y zmienione lokalnie oraz usuwa z serwera pliki, które
-zosta³y usuniête lokalnie. sitecopy opcjonalnie próbuje odnale¼æ pliki
-przeniesione lokalnie aby przenie¶æ je tak¿e zdalnie. Obs³ugiwane s±
+%description -l pl.UTF-8
+sitecopy pozwala Å‚atwo utrzymywaÄ‡ zdalne serwisy WWW. Program jednym
+poleceniem w celu synchronizacji serwisu przesyÅ‚a na serwer pliki,
+ktÃ³re zostaÅ‚y zmienione lokalnie oraz usuwa z serwera pliki, ktÃ³re
+zostaÅ‚y usuniÄ™te lokalnie. sitecopy opcjonalnie prÃ³buje odnaleÅºÄ‡ pliki
+przeniesione lokalnie aby przenieÅ›Ä‡ je takÅ¼e zdalnie. ObsÅ‚ugiwane sÄ…
 serwery FTP i WebDAV.
 
 %prep
