@@ -2,7 +2,7 @@ Summary:	Tool for easily maintaining remote web sites
 Summary(pl.UTF-8):	Narzędzie do łatwego utrzymywania zdalnych serwisów WWW
 Name:		sitecopy
 Version:	0.16.3
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.lyra.org/sitecopy/%{name}-%{version}.tar.gz
@@ -31,6 +31,7 @@ serwery FTP i WebDAV.
 %setup -q
 
 %build
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
