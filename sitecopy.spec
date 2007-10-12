@@ -8,6 +8,7 @@ Group:		Networking/Utilities
 Source0:	http://www.lyra.org/sitecopy/%{name}-%{version}.tar.gz
 # Source0-md5:	df48499ad81b333a9d255c1709e09a1a
 URL:		http://www.lyra.org/sitecopy/
+BuildRequires:	automake
 BuildRequires:	neon-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
