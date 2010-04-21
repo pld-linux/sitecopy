@@ -2,7 +2,7 @@ Summary:	Tool for easily maintaining remote web sites
 Summary(pl.UTF-8):	Narzędzie do łatwego utrzymywania zdalnych serwisów WWW
 Name:		sitecopy
 Version:	0.16.3
-Release:	3
+Release:	4
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://www.lyra.org/sitecopy/%{name}-%{version}.tar.gz
