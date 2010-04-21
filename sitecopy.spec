@@ -1,13 +1,15 @@
 Summary:	Tool for easily maintaining remote web sites
 Summary(pl.UTF-8):	Narzędzie do łatwego utrzymywania zdalnych serwisów WWW
 Name:		sitecopy
-Version:	0.16.3
-Release:	4
+Version:	0.16.6
+Release:	1
 License:	GPL
 Group:		Networking/Utilities
-Source0:	http://www.lyra.org/sitecopy/%{name}-%{version}.tar.gz
-# Source0-md5:	df48499ad81b333a9d255c1709e09a1a
-URL:		http://www.lyra.org/sitecopy/
+Source0:	http://www.manyfish.co.uk/sitecopy/%{name}-%{version}.tar.gz
+# Source0-md5:	b3aeb5a5f00af3db90b408e8c32a6c01
+Patch0:		%{name}-neon.patch
+URL:		http://www.manyfish.co.uk/sitecopy/
+BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	heimdal-devel
 BuildRequires:	neon-devel
@@ -32,9 +34,11 @@ serwery FTP i WebDAV.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 cp -f /usr/share/automake/config.sub .
+%{__autoconf}
 %configure \
 	--with-ssl=openssl \
 	--with-gssapi
